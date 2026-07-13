@@ -1,176 +1,152 @@
-# ⚡ PixoSystem
+# ⚡ Pixo.Jar
 
-**PixoSystem** is a modern Minecraft Paper/Spigot core plugin designed as an all-in-one server system – similar to EssentialsX, but focused on **GUI-first design, performance, and expandability**.
+**Pixo.Jar** is the official repository for the **Pixo Minecraft ecosystem**.
 
-It includes a full admin system, player utilities, teleportation tools, and modern quality-of-life features for servers of any size.
+This repository contains the development of the **Pixo Client**, **Pixo Mod**, and the upcoming **Pixo Launcher**.
 
----
-
-## 🚀 Features
-
-### 🧑‍💼 Admin System
-- Fully interactive Admin GUI
-- Player management (Kick, Ban, Mute, Tempban)
-- Vanish system
-- Freeze / Unfreeze players
-- Invsee & Enderchest viewer
-- Gamemode switch tools
-- Teleport utilities
-- Maintenance mode
-- Staff chat system
+> 🚧 **Project Status:** Active Development
 
 ---
 
-### 🏠 Homes & Warps
-- `/sethome`, `/home`, `/delhome`, `/homes`
-- Multi-home support per player
-- Warp system
-- GUI-based warp menu
-- Permission-based warp access
+# 🚀 Components
+
+## 🎮 Pixo Client
+
+A modern Minecraft client focused on performance, simplicity, and a clean user experience.
+
+### Planned Features
+
+- ⚡ Performance optimizations
+- 🎨 Modern user interface
+- ✨ Cosmetic system
+- 🔐 Account management
+- 🧩 Modular architecture
+- 🔄 Automatic updates
 
 ---
 
-### 🔄 Teleport System
-- `/tpa`, `/tpahere`
-- `/tpaccept`, `/tpdeny`
-- `/tp`
-- `/back` system
-- Safe teleport handling (configurable)
+## 🧩 Pixo Mod
+
+The Fabric Mod currently adds support for displaying a custom **icon before a player's name**.
+
+### Current Features
+
+- 🏷️ Custom player icon
+- ⚡ Lightweight implementation
+- 🔧 Easy integration
+- 📦 Fabric based
+
+More features will be added over time.
 
 ---
 
-### 📊 Tab & UI System
-- Custom animated tablist
-- Rank display support
-- Player ping display
-- Optional scoreboard support
+## 🚀 Pixo Launcher *(Coming Soon)*
+
+A dedicated launcher for managing the entire Pixo ecosystem.
+
+### Planned Features
+
+- 📥 Client installation
+- 🔄 Automatic updates
+- 🗂️ Version management
+- 👤 Microsoft account login
+- 📰 News & announcements
+- ☕ Java management
+- 📦 Mod management
 
 ---
 
-### 💰 Economy (Optional Module)
-- Balance system
-- Pay command
-- Admin economy tools
+# 📂 Repository Structure
+
+```text
+Pixo.Jar
+├── Client/
+├── Mod/
+├── Launcher/        # Coming Soon
+├── Shared/
+└── Docs/
+```
 
 ---
 
-### 🎮 Player Utilities
-- Fly
-- God mode
-- Heal / Feed
-- Speed control
-- Clear inventory
-- Nickname system
+# 🛠 Development
+
+Pixo.Jar is built with the following goals:
+
+- 🚀 High performance
+- 🎨 Modern design
+- 🧩 Modular structure
+- 🔧 Easy maintenance
+- 📈 Future expandability
 
 ---
 
-### 🧭 GUI System
-- Fully inventory-based menus
-- Clean navigation system
-- Clickable interfaces
-- Fully configurable icons, layouts, and actions
+# 📋 Roadmap
+
+- [x] Initial Fabric Mod
+- [x] Name Icon System
+- [ ] Pixo Client
+- [ ] Pixo Launcher
+- [ ] Cosmetics
+- [ ] Online Services
+- [ ] Auto Updater
+- [ ] Settings Synchronization
 
 ---
 
-## 🧱 Permissions
+# 💻 Requirements
 
-Example permissions:
-pixosystem.admin
-pixosystem.home
-pixosystem.warp
-pixosystem.tpa
-pixosystem.fly
-pixosystem.vanish
+- Java 21+
+- Minecraft (Supported Versions)
+- Fabric Loader
 
 ---
 
-## ⚙️ Installation
+# 📸 Screenshots
 
-1. Download the latest release
-2. Place `PixoSystem.jar` into your `/plugins` folder
-3. Restart your server
-4. Configure files inside `/plugins/PixoSystem/`
+*Coming Soon*
 
----
-
-## 📁 Configuration
-
-Everything is fully configurable:
-- Messages
-- GUIs
-- Cooldowns
-- Permissions
-- Tablist layout
-- Homes & Warps
-- Economy settings
+- Client UI
+- Launcher
+- In-Game Features
+- Cosmetics
 
 ---
 
-## 🧪 Requirements
+# 🤝 Contributing
 
-- Java 17+
-- PaperMC / Spigot 1.20+
-- Optional: Vault (for economy support)
+Contributions, suggestions, and bug reports are welcome.
 
----
-
-## 📸 Screenshots
-
-*(Add your GUI screenshots here)*
-
-- Admin GUI
-- Warp Menu
-- Home Menu
-- Tablist
-
----
-
-## 🧠 Philosophy
-
-PixoSystem is designed to:
-- Replace multiple plugins (EssentialsX, admin tools, etc.)
-- Stay lightweight and modular
-- Provide a modern GUI-first experience
-- Be easily extendable for developers
-
----
-
-## 🛠 Developer API (Planned)
-
-Future API features:
-- Event system
-- Module system
-- Custom command registration
-- GUI builder API
-
----
-
-## 📦 Roadmap
-
-- [x] Home system
-- [x] Warp system
-- [x] Admin GUI
-- [x] TPA system
-- [x] Tab system
-- [x] Economy expansion
-- [ ] Punishment history GUI
-- [x] Fully modular plugin system
-- [ ] Web dashboard
+Please open an issue or submit a pull request.
 
 ---
 
 # 🌍 Links
 
-* Website: https://spaceducki.de
-* Info: https://info.mauvi.de
-* Support: https://ko-fi.com/mauvi020
+- 🌐 Website: https://spaceducki.de
+- 📖 Information: https://info.mauvi.de
+- ☕ Support: https://ko-fi.com/mauvi020
 
-
+---
 
 # 📧 Contact
 
-support.mauvi@gmail.de
+**support.mauvi@gmail.com**
 
+---
 
+# 📜 License
 
-Made with 💙 by Mauvi020
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+## ❤️ Made with love by Mauvi020
+
+**Pixo.Jar** is currently under active development.
+
+⭐ If you like the project, consider leaving a star!
+
+</div>
